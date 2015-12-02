@@ -51,11 +51,10 @@
 }
 
 .price-col ul {
+    margin: 10px;
     list-style: none;
     padding: 0;
-    margin-bottom: 40px;
     display:block;
-
 }
 
 .price-col ul li {
