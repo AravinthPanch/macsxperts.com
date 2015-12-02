@@ -63,6 +63,7 @@ Table of contents
 
 @import url("animate.css");
 @import url("linea-icon.css");
+@import url("dima-icon.css");
 
 
 /*-------------------------------------------------------------------
@@ -4641,4 +4642,8 @@ address p {
 
 .font-weight-bolder {
     font-weight: bolder;
+}
+
+.font-size-x-l {
+    font-size: x-large;
 }

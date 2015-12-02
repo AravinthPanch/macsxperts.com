@@ -201,3 +201,30 @@
     line-height: 25px;
     color: #7e7e7e;
 }
+
+/*Line*/
+.topaz-line {
+    position: relative;
+    color: /*txt-gold*/#d6b161;
+    width: 160px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.topaz-line:before, .topaz-line:after {
+    content: '';
+    position: absolute;
+    border-bottom: 1px solid #d0cdbc;
+    display: block;
+    width: 60px;
+    top: 11px;
+}
+
+.topaz-line:before {
+    right: 0;
+}
+
+.topaz-line:after {
+    left: 0;
+}
