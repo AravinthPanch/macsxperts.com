@@ -2,12 +2,11 @@
     featured border boxes
 -------------------------------------------------------------------*/
 
-
 .featured-item .icon {
-    padding:0 0 30px 0;
+    padding: 0 0 30px 0;
 }
 
-.featured-item .icon i{
+.featured-item .icon i {
     font-size: 36px;
 }
 
@@ -30,11 +29,15 @@
 
 .featured-item.border-box:hover {
     border: 1px solid transparent;
-    background: #222222;
-    color: #7e7e7e;
+    background: /*txt-green*/ #3c763d;
+    color: #fff;
 }
 
 .featured-item.border-box:hover h4 {
+    color: #fff;
+}
+
+.featured-item.border-box:hover div {
     color: #fff;
 }
 
@@ -42,8 +45,8 @@
 .featured-item.border-box:hover,
 .featured-item.border-box h4,
 .featured-item.border-box:hover h4,
-.featured-item.border-box .icon i
-.featured-item.border-box:hover .icon i{
+.featured-item.border-box .icon i,
+.featured-item.border-box:hover .icon i {
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     transition: all 0.3s ease;
@@ -102,11 +105,9 @@
 .feature-box-grid .col-xs-7,
 .feature-box-grid .col-xs-8,
 .feature-box-grid .col-xs-9 {
-    padding-left:0px;
-    padding-right:0px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
-
-
 
 /* ----------------------------------------------------------------
     feature parallax
@@ -125,16 +126,15 @@
 
 .feature-parallax.dark,
 .feature-parallax.dark .featured-item .title h4,
-.feature-parallax.dark .featured-item .desc{
+.feature-parallax.dark .featured-item .desc {
     color: #fff;
 }
 
-.featured-item .bottom-border i{
+.featured-item .bottom-border i {
     border-bottom: 2px solid;
     padding-bottom: 30px;
     display: inline-block;
 }
-
 
 /* ----------------------------------------------------------------
     feature outline
@@ -152,13 +152,12 @@
     left: 0;
 }
 
-
 /* ----------------------------------------------------------------
     feature border box
 -----------------------------------------------------------------*/
 
 .feature-border-box {
-    border:1px solid #e9e9e9;
+    border: 1px solid #e9e9e9;
     padding: 30px;
     position: relative;
     border-radius: 4px;
@@ -178,7 +177,7 @@
     width: 60px;
     height: 60px;
     line-height: 60px;
-    background: /*txt-green*/#3c763d;
+    background: /*txt-green*/ #3c763d;
     border-radius: 4px;
     text-align: center;
     box-shadow: 0 0 0px 10px #fff;
@@ -254,7 +253,6 @@
     padding: 10px 10px;
 }
 
-
 .featured-box .one-third .featured-item {
     padding: 15% 20%;
     min-height: 360px;
@@ -262,7 +260,7 @@
 
 .featured-box .one-third .featured-item,
 .featured-box .one-third .featured-item h4,
-.featured-box .one-third .featured-item .desc{
+.featured-box .one-third .featured-item .desc {
     color: #fff;
 }
 
@@ -281,7 +279,6 @@
 .height-fix {
     height: 300px;
 }
-
 
 .featured-item .number {
     color: #e1e1e1;
