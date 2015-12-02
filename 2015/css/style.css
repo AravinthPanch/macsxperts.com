@@ -4625,3 +4625,20 @@ address p {
 .mailchimp label {
     font-weight: normal;
 }
+
+
+
+/*-----------------------------------------------
+    Font
+-----------------------------------------------*/
+.font-weight-400 {
+    font-weight: 400;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}
+
+.font-weight-bolder {
+    font-weight: bolder;
+}
