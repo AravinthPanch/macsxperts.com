@@ -12,7 +12,6 @@
     margin: 0 15px;
 }
 
-
 .post-grid .col-lg-1,
 .post-grid .col-lg-10,
 .post-grid .col-lg-11,
@@ -65,37 +64,33 @@
     padding-right: 0;
 }
 
-
 .post-single {
 
 }
 
-
-.post-single .post-img ,
+.post-single .post-img,
 .post-single .post-desk .date,
 .post-single .post-cat li a,
 .post-single .post-desk,
-.post-list .post-single .post-desk a.author{
+.post-list .post-single .post-desk a.author {
     position: relative;
 }
 
-.post-grid .post-single .post-img{
+.post-grid .post-single .post-img {
     width: 100%;
     height: 309px;
 }
 
-
-.post-grid .post-single .post-img img{
+.post-grid .post-single .post-img img {
     width: 100%;
     height: 100%;
 }
-
 
 .post-single .post-img.top:after {
     top: -7px;
 }
 
-.post-single .post-img.bottom:after{
+.post-single .post-img.bottom:after {
     bottom: -7px;
 }
 
@@ -118,22 +113,19 @@
     width: 15px;
 }
 
-
-
 .post-single .post-desk {
-    padding: 30px 0 ;
+    padding: 30px 0;
     height: 309px;
 }
 
 .post-grid .post-single .post-desk {
-    padding: 40px ;
+    padding: 40px;
     height: 309px;
 }
 
 .pad-left-less {
     padding-left: 0 !important;
 }
-
 
 .post-single .post-desk h4,
 .post-single .post-desk .date,
@@ -151,9 +143,10 @@
 }
 
 .post-sub-title {
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: bold;
+    color: /*txt-brown*/ #490202;
 }
-
 
 .post-single .post-desk .date {
     margin-bottom: 25px;
@@ -165,7 +158,7 @@
     height: auto;
     padding-top: 0;
     background: none;
-    color:transparent;
+    color: transparent;
     margin-right: 0px;
 }
 
@@ -179,7 +172,6 @@
     background: #222;
 }
 
-
 .post-single .post-desk .mid-align {
     position: absolute;
     top: 50%;
@@ -190,18 +182,15 @@
     padding-right: 40px;
 }
 
-
-.post-single .post-cat{
+.post-single .post-cat {
     padding: 0;
     list-style: none;
 }
 
-
-.post-single .post-cat li{
+.post-single .post-cat li {
     display: inline-block;
     margin-right: 10px;
 }
-
 
 .post-single .post-cat li a {
     color: #909090;
@@ -247,9 +236,7 @@
     padding-right: 5px;
 }
 
-
-
-.post-list .post-single .post-img img{
+.post-list .post-single .post-img img {
     width: 100%;
     height: auto;
 }
@@ -273,13 +260,11 @@
 
 /*-------*/
 
-
-
 .post-list-aside .post-single .post-desk h4 {
     margin-bottom: 10px;
 }
 
-.post-list-aside .post-img img{
+.post-list-aside .post-img img {
     width: 100%;
     height: auto;
 }
@@ -290,11 +275,10 @@
     padding-right: 5px;
 }
 
-
 /*------------*/
 
 .post-parallax {
-    background-image: url("../../img/parallax/4.jpg") ;
+    background-image: url("../../img/parallax/4.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -304,15 +288,15 @@
     background-position: 50% 50%;
 }
 
-.post-parallax .relative{
+.post-parallax .relative {
     float: left;
 }
 
-.post-parallax .space{
+.post-parallax .space {
     padding: 0 30px;
 }
 
-.post-parallax .massive-progress{
+.post-parallax .massive-progress {
     background: #606060;
 }
 
@@ -326,7 +310,7 @@
 }
 
 .post-parallax .dark-overlay {
-    background: rgba(0,0,0,.5);
+    background: rgba(0, 0, 0, .5);
     content: '';
     width: 50%;
     right: 0;
@@ -340,12 +324,13 @@
     position: relative;
 }
 
-.v-middle  {
+.v-middle {
     height: 400px;
     display: table;
     vertical-align: middle;
     width: 100%;
 }
+
 .v-middle h3 {
     display: table-cell;
     vertical-align: middle;
@@ -367,7 +352,6 @@
     width: 25%;
 }
 
-
 .img-post .item {
     float: left;
     position: relative;
@@ -386,7 +370,6 @@
     padding: 10%;
 }
 
-
 .img-post.col-3 .post-desk {
     top: 15%;
     padding: 5%;
@@ -397,11 +380,9 @@
     padding: 5%;
 }
 
-
 .img-post .post-desk .light-txt a {
     color: #fff;
 }
-
 
 /*--------------------------*/
 
@@ -409,23 +390,21 @@
     position: relative;
 }
 
-.title-img img{
+.title-img img {
     border: none !important;
     width: 100%;
     height: auto;
 }
 
-
 .title-img .info {
     position: absolute;
     left: 0;
     bottom: 0;
-    background: rgba(0,0,0,.5);
+    background: rgba(0, 0, 0, .5);
     padding: 10px;
     color: #fff;
     width: 100%;
 }
-
 
 .right-side,
 .left-side {

@@ -1,7 +1,6 @@
 @font-face {
     font-family: 'Dima-Icons';
-    src: url("/fonts/dima-icons.eot?plr9d0");
-    src: url("/fonts/dima-icons.eot?#iefixplr9d0") format("embedded-opentype"), url("/fonts/dima-icons.woff?plr9d0") format("woff"), url("/fonts/dima-icons.ttf?plr9d0") format("truetype"), url("/fonts/dima-icons.svg?plr9d0#dima-icons") format("svg");
+    src: url("/fonts/dima-icons.eot");
     font-weight: normal;
     font-style: normal;
 }

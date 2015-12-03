@@ -209,7 +209,7 @@
 .side-object .object img{
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: 100px;
 }
 
 .side-object .content {
