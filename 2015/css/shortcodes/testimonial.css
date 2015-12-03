@@ -185,7 +185,9 @@
 /**/
 
 .testimonial-parallax {
+    margin-top: 200px;
     background: /*txt-green*/#3c763d;
+    height: 400px;
 }
 
 .testimonial-alt .testi-auth .avatar {

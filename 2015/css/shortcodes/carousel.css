@@ -201,21 +201,17 @@
 
 .side-object .object {
     width: 30%;
-    margin-top: 100px;
-    position: relative;
-    height: 400px;
 }
 
 .side-object .object img{
-    position: absolute;
     left: 0;
-    bottom: 100px;
+    margin-top: 110px;
 }
 
 .side-object .content {
     width: 70%;
     text-align: left;
-    padding: 200px 0 0 100px;
+    padding: 100px 0 0 100px;
 }
 .side-object .object,
 .side-object .content {
