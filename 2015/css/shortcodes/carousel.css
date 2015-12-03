@@ -104,7 +104,9 @@
     background: rgba(0,0,0,0.5);
     padding: 15px 20px;
     color: #fff;
-    font-size: 24px;
+    width: 80%;
+    float: right;
+    font-size: xx-large;
 }
 
 
