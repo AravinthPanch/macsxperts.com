@@ -1,8 +1,6 @@
 <?php
 
-// Replace this with your own email address
-$siteOwnersEmail = 'aravinth@macsxperts.com';
-
+$siteOwnersEmail = 'info@macsxperts.com';
 
 if ($_POST) {
     

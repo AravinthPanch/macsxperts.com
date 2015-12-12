@@ -629,7 +629,7 @@
 					}
 					// There was an error
 					else {
-						error(msg)
+						alert(msg)
 					}
 
 				}
