@@ -608,11 +608,6 @@
 		});
 
 		$('#contactBtn').click(function () {
-			//e.preventDefault();
-
-
-			//$('#contact-loader').fadeIn();
-
 			var contactName = $('#contactName').val();
 			var contactEmail = $('#contactEmail').val();
 			var contactMessage = $('#contactMessage').val();
@@ -630,11 +625,11 @@
 
 					// Message was sent
 					if (msg == 'OK') {
-						alert("OK")
+						alert("Your message has been sent to Macsxperts")
 					}
 					// There was an error
 					else {
-						alert(msg)
+						error(msg)
 					}
 
 				}

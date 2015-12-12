@@ -24,16 +24,15 @@ if ($_POST) {
         $error['message'] = "Please enter your message. It should have at least 15 characters.";
     }
     // Subject
-    $subject = "Contact Form Submission";
+    $subject = "Contacted via Macsxperts.com";
 
     
     // Set Message
-    $message .= "Email from: " . $name . "<br />";
-    $message .= "Email address: " . $email . "<br />";
+    $message .= "Name: " . $name . "<br />";
+    $message .= "Email: " . $email . "<br />";
     $message .= "Phone: " . $contact_phone . "<br />";
     $message .= "Message: <br />";
     $message .= $contact_message;
-    $message .= "<br /> ----- <br /> This email was sent from your site's contact form. <br />";
     
     // Set From: header
     $from = $name . " <" . $email . ">";
@@ -60,9 +59,9 @@ if ($_POST) {
     
     else {
         
-        $response = (isset($error['name'])) ? $error['name'] . "<br /> \n" : null;
-        $response .= (isset($error['email'])) ? $error['email'] . "<br /> \n" : null;
-        $response .= (isset($error['message'])) ? $error['message'] . "<br />" : null;
+        $response = (isset($error['name'])) ? $error['name'] . "\n" : null;
+        $response .= (isset($error['email'])) ? $error['email'] . "\n" : null;
+        $response .= (isset($error['message'])) ? $error['message'] . "\n" : null;
         
         echo $response;
         
