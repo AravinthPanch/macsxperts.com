@@ -323,7 +323,7 @@
                                     <li>Suitable for Full-Sun or Semi-lit Indoor Environment</li>
                                     <li>Plug and Play System</li>
                                     <li>Automated Irrigation System</li>
-                                    <li>Stainless Steal Body</li>
+                                    <li>Stainless Steel Body</li>
                                     <li>EC and pH Meter</li>
                                 </ul>
                             </div>
@@ -473,12 +473,11 @@
                                 <div class="content">
                                     <span>Udayavani (Kannada Newspaper), 21-November-2015, Bengaluru</span>
 
-                                    <h3 class="theme-color text-uppercase">ಟ್ಟ: ೩.೩" ಅಂ :ಭಯ ಆ..? ಮದಟಇಹೊಚ್' :ಏಣಗ</h3>
+                                    <h3 class="theme-color text-uppercase">ತರಕಾರಿ ಬೆಳೆಯೋದು ಈಗ ಆಟೋಮ್ಯಾಟಿಕ್</h3>
 
                                     <p>
-                                        ಟಾಟಾ ಹೊಂಓಮೇಂಟಳೊಂ. ಟ್ಸ್ .ಕ್ಷ್ಯಓ
-                                        ಗುಡಮ್) ರೂಫಿಸಲಾಗಿದೆ. ಅವರಐ) ಆರು ತಿಂಗಳಿಗೆ
-                                        ಸುಶಃಗುಯ್ಲ್ ಹ್ಮ'.ಕದುಃ:ಶಗ'";. ಜ್ಪುರಟಲಲದ್
+                                        ಮಾಕ್ಸ್ಎಕ್ಸ್ ಪರ್ಟ್ಸ್ ಸ್ಟಾರ್ಟ್ ಅಪ್ನಿಂದ ಸುಲಭ ವಿಧಾನ
+                                        ಲೈಟ್ ಸ್ವಿಚ್ ಆನ್ ಅಥವಾ ಆಫ್ ಮಾಡಿದಷ್ಟು ಸುಲಭವಾಗಿ ಈಗ ನೀವು ತರಕಾರಿ ಬೆಳೆಯಬಹುದು
                                     </p>
                                     <a href="#" class="btn btn-small btn-rounded btn-light-solid  btn-transparent">Full Story</a>
                                 </div>
@@ -503,7 +502,7 @@
 
                 <div class="row">
                     <div class="col-md-10 col-md-offset-1">
-                        <form method="post" action="#" id="form" role="form" class="contact-comments">
+                        <form method="post" id="contactForm" role="form" class="contact-comments" name="contactForm">
 
                             <div class="row">
 
@@ -511,25 +510,28 @@
 
                                     <div class="form-group">
                                         <!-- Name -->
-                                        <input type="text" name="name" id="name" class=" form-control" placeholder="Name *" maxlength="100" required="">
+                                        <input type="text" id="contactName" name="contactName" class=" form-control" placeholder="Name *" maxlength="100"
+                                               required="">
                                     </div>
                                     <div class="form-group">
                                         <!-- Email -->
-                                        <input type="email" name="email" id="email" class=" form-control" placeholder="Email *" maxlength="100" required="">
+                                        <input type="email" id="contactEmail" name="contactEmail" class=" form-control" placeholder="Email *" maxlength="100"
+                                               required="">
                                     </div>
                                     <div class="form-group">
                                         <!-- phone -->
-                                        <input type="text" name="phone" id="phone" class=" form-control" placeholder="Phone" maxlength="100">
+                                        <input type="text" id="contactPhone" name="contactPhone" class=" form-control" placeholder="Phone" maxlength="100">
                                     </div>
                                 </div>
 
                                 <div class="col-md-6 form-group">
                                     <div class="form-group">
                                         <!-- Comment -->
-                                        <textarea name="text" id="text" class="cmnt-text form-control" placeholder="Comment" maxlength="400"></textarea>
+                                        <textarea id="contactMessage" name="contactMessage" class="cmnt-text form-control" placeholder="Message"
+                                                  maxlength="400"></textarea>
                                     </div>
                                     <div class="form-group full-width">
-                                        <button type="submit" class="btn btn-small btn-dark-solid ">
+                                        <button id="contactBtn" type="submit" class="btn btn-small btn-dark-solid ">
                                             Send Message
                                         </button>
                                     </div>

@@ -607,43 +607,41 @@
 			}
 		});
 
+		$('#contactBtn').click(function () {
+			//e.preventDefault();
 
-		/* ---------------------------------------------
-		 Mailchimp Init
-		 --------------------------------------------- */
-		if ($.fn.ajaxChimp) {
-			$('.mailchimp').ajaxChimp({
-				/**
-				 * Example mailchimp url
-				 * //blahblah.us1.list-manage.com/subscribe/post?u=5afsdhfuhdsiufdba6f8802&id=4djhfdsh9'
-				 */
-				url: 'paste m'
-			});
-		}
 
-		/* ---------------------------------------------
-		 Send Mail
-		 --------------------------------------------- */
-		$("form.contact-comments").on("submit", function (e) {
-			e.preventDefault();
-			var sender = $("#email").val();
-			var name = $("#name").val();
-			var subject = $("#subject").val();
-			var message = $("#comments").val();
-			var phone = $("#phone").val();
+			//$('#contact-loader').fadeIn();
 
-			var target = $(this).attr("action");
-			var that = this;
-			$.post(target, {name: name, subject: subject, email: sender, phone: phone, comments: message}, function (data) {
-				if ($(that).find(".mailstatus").length == 0) {
-					$(that).append($("<div/>").addClass("mailstatus"));
+			var contactName = $('#contactName').val();
+			var contactEmail = $('#contactEmail').val();
+			var contactMessage = $('#contactMessage').val();
+			var contactPhone = $('#contactPhone').val();
+
+			var data = 'contactName=' + contactName + '&contactEmail=' + contactEmail
+				+ '&contactPhone=' + contactPhone + '&contactMessage=' + contactMessage;
+
+			$.ajax({
+
+				type: "POST",
+				url: "email/send.php",
+				data: data,
+				success: function (msg) {
+
+					// Message was sent
+					if (msg == 'OK') {
+						alert("OK")
+					}
+					// There was an error
+					else {
+						alert(msg)
+					}
+
 				}
-				$(".mailstatus").html(data).show();
-				setTimeout(function () {
-					$(".mailstatus").empty().hide();
-				}, 5000)
+
 			});
-		})
+			return false;
+		});
 
 
 	});
