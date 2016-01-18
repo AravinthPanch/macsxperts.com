@@ -46,6 +46,11 @@ Table of contents
 
 @media screen and (max-width: 1024px) {
 
+    /* Massive News Carousel is not responsive for tablet screen */
+    .testimonial-parallax {
+        display: none;
+    }
+
     .login-box.gray-bg {
         margin-bottom: 20px;
     }
@@ -838,6 +843,12 @@ Table of contents
    ------------------------------- */
   
 @media screen and (max-width: 480px) {
+
+    /* Massive News Carousel is not responsive for tablet screen but for phone portrait */
+    .testimonial-parallax {
+        display: block;
+        height: 630px;
+    }
 
     /*portfolio   grid*/
     .portfolio.col-2 .portfolio-item,
