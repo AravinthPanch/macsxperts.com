@@ -27,30 +27,30 @@
     margin-bottom: -1px;
 }
 
-.featured-item.border-box:hover {
-    border: 1px solid transparent;
-    background: /*txt-green*/ #3c763d;
-    color: #fff;
-}
+/*.featured-item.border-box:hover {*/
+    /*border: 1px solid transparent;*/
+    /*background: /!*txt-green*!/ #3c763d;*/
+    /*color: #fff;*/
+/*}*/
 
-.featured-item.border-box:hover h4 {
-    color: #fff;
-}
+/*.featured-item.border-box:hover h4 {*/
+    /*color: #fff;*/
+/*}*/
 
-.featured-item.border-box:hover div {
-    color: #fff;
-}
+/*.featured-item.border-box:hover div {*/
+    /*color: #fff;*/
+/*}*/
 
-.featured-item.border-box,
-.featured-item.border-box:hover,
-.featured-item.border-box h4,
-.featured-item.border-box:hover h4,
-.featured-item.border-box .icon i,
-.featured-item.border-box:hover .icon i {
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-}
+/*.featured-item.border-box,*/
+/*.featured-item.border-box:hover,*/
+/*.featured-item.border-box h4,*/
+/*.featured-item.border-box:hover h4,*/
+/*.featured-item.border-box .icon i,*/
+/*.featured-item.border-box:hover .icon i {*/
+    /*-webkit-transition: all 0.3s ease;*/
+    /*-moz-transition: all 0.3s ease;*/
+    /*transition: all 0.3s ease;*/
+/*}*/
 
 .feature-box-grid {
     padding-left: 15px;
