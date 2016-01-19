@@ -638,7 +638,6 @@
 			return false;
 		});
 
-
 		//	Get the message that is passed as query string.
 		function getParameterByName(name) {
 			var regexS = "[\\?&]" + name + "=([^&#]*)",
@@ -653,6 +652,8 @@
 
 		if (getParameterByName('msg').length > 0) {
 			$('#contactMessage').text(getParameterByName('msg'));
+			window.scrollBy(0, 5200);
+			//location.href = "#contact";
 		}
 
 	});
@@ -660,5 +661,5 @@
 })(jQuery);
 
 function purchaseBtn(msg) {
-	window.location = "index.html?msg=" + msg + "#contact";
+	window.location = "index.html?msg=" + msg ;
 }
