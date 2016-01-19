@@ -639,6 +639,26 @@
 		});
 
 
+		//	Get the message that is passed as query string.
+		function getParameterByName(name) {
+			var regexS = "[\\?&]" + name + "=([^&#]*)",
+				regex = new RegExp(regexS),
+				results = regex.exec(window.location.search);
+			if (results == null) {
+				return "";
+			} else {
+				return decodeURIComponent(results[1].replace(/\+/g, " "));
+			}
+		}
+
+		if (getParameterByName('msg').length > 0) {
+			$('#contactMessage').text(getParameterByName('msg'));
+		}
+
 	});
 
 })(jQuery);
+
+function purchaseBtn(msg) {
+	window.location = "index.html?msg=" + msg + "#contact";
+}
