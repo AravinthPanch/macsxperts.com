@@ -31,7 +31,7 @@
 		if (window.devicePixelRatio > 1) {
 			$(".retina").imagesLoaded(function () {
 				$(".retina").each(function () {
-					var src = $(this).attr("src").replace(".", "@2x.");
+					var src = $(this).attr("src").replace(".png", "@2x.png");
 					var h = $(this).height();
 					var w = $(this).width();
 					$(this).attr("src", src).css({height: h, width: 'auto'});
